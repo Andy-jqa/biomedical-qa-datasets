@@ -1,6 +1,7 @@
 # Biomedical Question Answering Datasets
 
-Based on our survey of biomedical question answering tasks, we present this list of datasets which are available for future studies. As for the classifications of approaches, contents, and formats, we follow the settings in [our paper](https://arxiv.org/abs/2102.05281).
+A summary of biomedical QA datasets surveyed in our paper [Biomedical Question Answering: A Comprehensive Review
+](https://arxiv.org/abs/2102.05281).
 
 ![overview](https://github.com/Andy-jqa/biomedical-qa-datasets/blob/main/overview.png)
 
