@@ -10,7 +10,7 @@ A summary of biomedical QA datasets surveyed in our paper [Biomedical Question A
 | [BiQA](#biqa)         | 7.4k                      | MAP                         | -- | IR | Consumer    | Retrieval                   | 2021.3             |
 | [EPIC-QA](#epic-qa)   | 45                        | MAP                         | -- | IR | Sci. & Con. | Retrieval                   | 2021.3             |
 | [HealthQA](#healthqa) | 7.5k                      | MAP                         | [87.88](https://doi.org/10.1145/3308558.3313699)        | IR | Consumer    | Retrieval                   | 2021.3             |
-| [TREC Genomics](#trecgenomics) | 28 (06), 36 (07)          | MAP                         | [54.39 (06) / 32.86 (07)](https://doi.org/10.1007/s10791-008-9076-6) | IR | Scientific  | Retrieval                   | 2021.3             |
+| [TREC Genomics](#trec-genomics) | 28 (06), 36 (07)          | MAP                         | [54.39 (06) / 32.86 (07)](https://doi.org/10.1007/s10791-008-9076-6) | IR | Scientific  | Retrieval                   | 2021.3             |
 | [BioASQ Task B Phase B](#bioasq-task-b) | 3.7k                      | F1, MRR, List F1, Manual | [90.3, 39.7, 52.3, 4.39/5](https://link.springer.com/chapter/10.1007/978-3-030-58219-7_16) | MRC                   | Scientific  | Y/N; Extraction; Generation | 2021.3 |
 | [Biomed-Cloze](#biomed-cloze) | 1M                        | -- | -- | MRC                   | Scientific  | Extraction                  | 2021.3            |
 | [BioRead](#bioread) | 16.4M | Acc | [47.06 (dev) / 51.52 (test)](https://www.aclweb.org/anthology/L18-1439) | MRC | Scientific | Extraction | 2021.3 |
