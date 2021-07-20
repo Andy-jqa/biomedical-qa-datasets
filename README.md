@@ -9,38 +9,38 @@ A summary of biomedical QA datasets surveyed in our paper [Biomedical Question A
 | [BioASQ Task B Phase A](#bioasq-task-b) | 3.7k                      | MAP                         | 33.04 (document) / 68.21 (snippet)                       | IR | Scientific  | Retrieval                   | 2021.3             |
 | [BiQA](#biqa)         | 7.4k                      | MAP                         | -- | IR | Consumer    | Retrieval                   | 2021.3             |
 | [EPIC-QA](#epic-qa)   | 45                        | MAP                         | -- | IR | Sci. & Con. | Retrieval                   | 2021.3             |
-| [HealthQA](#healthqa) | 7.5k                      | MAP                         | 87.88                                                    | IR | Consumer    | Retrieval                   | 2021.3             |
-| [TREC Genomics](#trecgenomics) | 28 (06), 36 (07)          | MAP                         | 54.39 (06) / 32.86 (07)                                  | IR | Scientific  | Retrieval                   | 2021.3             |
-| [BioASQ Task B Phase B](#bioasq-task-b) | 3.7k                      | F1, MRR, List F1, Manual | 90.3, 39.7, 52.3, 4.39/5                              | MRC                   | Scientific  | Y/N; Extraction; Generation | 2021.3 |
+| [HealthQA](#healthqa) | 7.5k                      | MAP                         | [87.88](https://doi.org/10.1145/3308558.3313699)        | IR | Consumer    | Retrieval                   | 2021.3             |
+| [TREC Genomics](#trecgenomics) | 28 (06), 36 (07)          | MAP                         | [54.39 (06) / 32.86 (07)](https://doi.org/10.1007/s10791-008-9076-6) | IR | Scientific  | Retrieval                   | 2021.3             |
+| [BioASQ Task B Phase B](#bioasq-task-b) | 3.7k                      | F1, MRR, List F1, Manual | [90.3, 39.7, 52.3, 4.39/5](https://link.springer.com/chapter/10.1007/978-3-030-58219-7_16) | MRC                   | Scientific  | Y/N; Extraction; Generation | 2021.3 |
 | [Biomed-Cloze](#biomed-cloze) | 1M                        | -- | -- | MRC                   | Scientific  | Extraction                  | 2021.3            |
-| [BioRead](#bioread) | 16.4M | Acc | 47.06 (dev) / 51.52 (test) | MRC | Scientific | Extraction | 2021.3 |
-| [BioMRC](#biomrc)   | 812k                      | Acc                         | 80.06 (dev) / 79.97 (test)                               | MRC                   | Scientific  | Extraction                  | 2021.3            |
-| [BMKC](#bmkc)         | 473k (T); 370k (LS)       | Acc                         | T: 85.5 (val) / 83.6 (test); LS: 80.1(val) / 77.3 (test) | MRC                   | Scientific  | Extraction                  | 2021.3            |
-| [CliCR](#clicr)      | 100k                      | EM, F1                     | 55.2, 59.8                                              | MRC                   | Clinical    | Extraction                  | 2021.3            |
-| [COVIDQA](#covidqa)   | 124                       | P@1, R@3, MRR             | 30.6, 47.7, 41.5                                       | MRC                   | Scientific  | Extraction                  | 2021.3            |
-| [COVID-QA](#covid-qa) | 2k                        | EM, F1                     | 37.2, 64.7                                              | MRC                   | Scientific  | Extraction                  | 2021.3            |
-| [EBMSummariser](#ebmsummariser) | 456                       | ROUGE-1,2,SU4               | 39.85, 24.50, 22.59                                    | MRC                   | Clinical    | Generation                  | 2021.3            |
-| [emrQA](#emrqa)       | 455k                      | EM, F1                     | 76.1, 81.7                                              | MRC                   | Clinical    | Extraction                  | 2021.3            |
-| [MASH-QA](#mash-qa)   | 34.8k                     | EM, F1                     | 29.49, 64.94                                            | MRC                   | Consumer    | Extraction                  | 2021.3            |
-| [MEDHOP](#medhop)    | 2.5k                      | Acc                         | 63.2                                                     | MRC                   | Scientific  | Multi-choice                | 2021.3          |
-| [MEDIQA-AnS](mediqa-ans) | 552 (single); 156 (multi) | ROUGE-1,2,L; BLEU           | Extractive: 29, 15, 12, 9; Abstractive: 32, 12, 8, 9 | MRC                   | Consumer    | Generation                  | 2021.3            |
-| [MEDIQA-QA](#mediqa-qa) | 3k                        | Acc, P, MRR               | 79.49, 84.02, 96.22                                     | MRC                   | Consumer    | Multi-choice                | 2021.3          |
-| [ProcessBank](#processbank) | 585                       | Acc                         | 66.7                                                     | MRC                   | Scientific  | Multi-choice                | 2021.3          |
-| [PubMedQA](#pubmedqa) | 212k                      | Acc, F1                    | 68.08, 52.72                                            | MRC                   | Scientific  | Y/N                         | 2021.3                   |
-| [QA4MRE-Alz](#qa4mre-alz) | 40                        | c@1                         | 76                                                       | MRC                   | Scientific  | Multi-choice                | 2021.3          |
-| [Bioinformatics](#bioinformatics) | 30                        | F1                          | 60.0                                                     | KB                    | Scientific  | Generation                  | 2021.3            |
-| [QALD-4 task 2](#qald-4-task-2) | 50                        | F1                          | 99.0                                                     | KB                    | Consumer    | Generation                  | 2021.3            |
-| [PathVQA](#pathvqa) | 32.8k                     | Acc | 13.4 (open-ended) / 84.0 (yes/no) | VQA                   | Clinical    | Generation                  | 2021.7            |
-| [VQA-Med](#vqa-med)   | 15.3k                     | Acc, BLEU                  | 64.0, 65.9                                              | VQA                   | Clinical    | Generation                  | 2021.3            |
-| [VQA-Rad](#vqa-rad)   | 3.5k                      | Acc                         | 60.0 (open) / 79.3 (close)                               | VQA                   | Clinical    | Generation                  | 2021.3            |
-| [ChiMed](#chimed) | 24.9k | Acc | 98.32 (rel.) / 84.24 (adopt.) | Open-domain | Consumer | Multi-choice | 2021.3 |
-| [cMedQA](#cmedqa) | 54k | P@1 | 65.35 (dev) / 64.75 (test) | Open-domain | Consumer | Multi-choice | 2021.3 |
-| [cMedQA v2](#cmedqa) | 108k | P@1 | 72.1 (dev) / 72.1 (test) | Open-domain | Consumer | Multi-choice | 2021.3 |
-| [HEAD-QA](#head-qa) | 6.8k | Acc | 44.4 (supervised) / 46.7 (unsupervised) | Open-domain | Examination | Multi-choice | 2021.3 |
-| [LiveQA-Med](#liveqa-med) | 738 | avgScore | 82.7 | Open-domain | Consumer | Generation | 2021.3 |
-| [MEDQA](#medqa) | 61k | Acc | MC: 69.3 (dev) / 70.1 (test); TW: 42.2 (dev) / 42.0 (test); US: 36.1 (dev) / 36.7 (test) | Open-domain | Examination | Multi-choice | 2021.3 |
-| [NLPEC](#nlpec) | 2.1k | Acc | 71.1 (dev) / 61.8 (test) | Open-domain | Examination | Multi-choice | 2021.3 |
-| [webMedQA](#webmedqa) | 63k | P@1, MAP | 66.0, 79.5 | Open-domain | Consumer | Multi-choice | 2021.3 |
+| [BioRead](#bioread) | 16.4M | Acc | [47.06 (dev) / 51.52 (test)](https://www.aclweb.org/anthology/L18-1439) | MRC | Scientific | Extraction | 2021.3 |
+| [BioMRC](#biomrc)   | 812k                      | Acc                         | [80.06 (dev) / 79.97 (test)](https://www.aclweb.org/anthology/2020.bionlp-1.15) | MRC                   | Scientific  | Extraction                  | 2021.3            |
+| [BMKC](#bmkc)         | 473k (T); 370k (LS)       | Acc                         | [T: 85.5 (val) / 83.6 (test); LS: 80.1(val) / 77.3 (test)](https://medinform.jmir.org/2018/1/e2?utm_source=TrendMD&utm_medium=cpc&utm_campaign=JMIR_TrendMD_0) | MRC                   | Scientific  | Extraction                  | 2021.3            |
+| [CliCR](#clicr)      | 100k                      | EM, F1                     | [55.2, 59.8](https://dspace.mit.edu/handle/1721.1/127443) | MRC                   | Clinical    | Extraction                  | 2021.3            |
+| [COVIDQA](#covidqa)   | 124                       | P@1, R@3, MRR             | [30.6](https://www.aclweb.org/anthology/2020.coling-industry.9), [47.7](https://doi.org/10.18653/v1/2020.nlpcovid19-2.14), [41.5](https://arxiv.org/abs/2004.11339) | MRC                   | Scientific  | Extraction                  | 2021.3            |
+| [COVID-QA](#covid-qa) | 2k                        | EM, F1                     | [37.2, 64.7](https://arxiv.org/abs/2012.01414)          | MRC                   | Scientific  | Extraction                  | 2021.3            |
+| [EBMSummariser](#ebmsummariser) | 456                       | ROUGE-1,2,SU4               | [39.85, 24.50, 22.59](https://www.aclweb.org/anthology/C16-1050) | MRC                   | Clinical    | Generation                  | 2021.3            |
+| [emrQA](#emrqa)       | 455k                      | EM, F1                     | [76.1, 81.7](https://ui.adsabs.harvard.edu/abs/2020arXiv200402288R/abstract) | MRC                   | Clinical    | Extraction                  | 2021.3            |
+| [MASH-QA](#mash-qa)   | 34.8k                     | EM, F1                     | [29.49, 64.94](https://doi.org/10.18653/v1/2020.findings-emnlp.342) | MRC                   | Consumer    | Extraction                  | 2021.3            |
+| [MEDHOP](#medhop)    | 2.5k                      | Acc                         | [63.2](https://ieeexplore.ieee.org/abstract/document/9203847/) | MRC                   | Scientific  | Multi-choice                | 2021.3          |
+| [MEDIQA-AnS](#mediqa-ans) | 552 (single); 156 (multi) | ROUGE-1,2,L; BLEU           | [Extractive: 29, 15, 12, 9; Abstractive: 32, 12, 8, 9](https://arxiv.org/abs/2005.09067) | MRC                   | Consumer    | Generation                  | 2021.3            |
+| [MEDIQA-QA](#mediqa-qa) | 3k                        | Acc, P, MRR               | [79.49](https://doi.org/10.18653/v1/2020.emnlp-main.372), [84.02](https://doi.org/10.18653/v1/2020.emnlp-main.372), [96.22](https://doi.org/10.18653/v1/W19-5041) | MRC                   | Consumer    | Multi-choice                | 2021.3          |
+| [ProcessBank](#processbank) | 585                       | Acc                         | [66.7](https://doi.org/10.3115/v1/D14-1159)              | MRC                   | Scientific  | Multi-choice                | 2021.3          |
+| [PubMedQA](#pubmedqa) | 212k                      | Acc, F1                    | [68.08, 52.72](https://doi.org/10.18653/v1/D19-1259)    | MRC                   | Scientific  | Y/N                         | 2021.3                   |
+| [QA4MRE-Alz](#qa4mre-alz) | 40                        | c@1                         | [76](https://www.academia.edu/download/50471011/Question_Answering_System_for_QA4MRECLEF20161121-7106-ea5kdk.pdf) | MRC                   | Scientific  | Multi-choice                | 2021.3          |
+| [Bioinformatics](#bioinformatics) | 30                        | F1                          | [60.0](https://arxiv.org/abs/2104.13744)                 | KB                    | Scientific  | Generation                  | 2021.3            |
+| [QALD-4 task 2](#qald-4-task-2) | 50                        | F1                          | [99.0](https://content.iospress.com/articles/semantic-web/sw223) | KB                    | Consumer    | Generation                  | 2021.3            |
+| [PathVQA](#pathvqa) | 32.8k                     | Acc | [13.4 (open-ended) / 84.0 (yes/no)](https://arxiv.org/abs/2105.08913) | VQA                   | Clinical    | Generation                  | 2021.7            |
+| [VQA-Med](#vqa-med)   | 15.3k                     | Acc, BLEU                  | [64.0, 65.9](https://ieeexplore.ieee.org/abstract/document/9032109/) | VQA                   | Clinical    | Generation                  | 2021.3            |
+| [VQA-Rad](#vqa-rad)   | 3.5k                      | Acc                         | [60.0 (open) / 79.3 (close)](https://doi.org/10.1145/3394171.3413761) | VQA                   | Clinical    | Generation                  | 2021.3            |
+| [ChiMed](#chimed) | 24.9k | Acc | [98.32 (rel.) / 84.24 (adopt.)](https://doi.org/10.18653/v1/W19-5027) | Open-domain | Consumer | Multi-choice | 2021.3 |
+| [cMedQA](#cmedqa) | 54k | P@1 | [65.35 (dev) / 64.75 (test)](https://www.mdpi.com/212454) | Open-domain | Consumer | Multi-choice | 2021.3 |
+| [cMedQA v2](#cmedqa-v2) | 108k | P@1 | [72.1 (dev) / 72.1 (test)](https://ieeexplore.ieee.org/abstract/document/8548603/) | Open-domain | Consumer | Multi-choice | 2021.3 |
+| [HEAD-QA](#head-qa) | 6.8k | Acc | [44.4 (supervised) / 46.7 (unsupervised)](https://arxiv.org/abs/2008.02434) | Open-domain | Examination | Multi-choice | 2021.3 |
+| [LiveQA-Med](#liveqa-med) | 738 | avgScore | [82.7](https://www.ncbi.nlm.nih.gov/pmc/articles/pmc5333286/) | Open-domain | Consumer | Generation | 2021.3 |
+| [MEDQA](#medqa) | 61k | Acc | [MC: 69.3 (dev) / 70.1 (test); TW: 42.2 (dev) / 42.0 (test); US: 36.1 (dev) / 36.7 (test)](https://doi.org/10.3390/app11146421) | Open-domain | Examination | Multi-choice | 2021.3 |
+| [NLPEC](#nlpec) | 2.1k | Acc | [71.1 (dev) / 61.8 (test)](https://doi.org/10.18653/v1/2020.emnlp-main.111) | Open-domain | Examination | Multi-choice | 2021.3 |
+| [webMedQA](#webmedqa) | 63k | P@1, MAP | [66.0, 79.5](https://doi.org/10.1186/s12911-019-0761-8) | Open-domain | Consumer | Multi-choice | 2021.3 |
 
 ## BioASQ Task B
 
@@ -204,7 +204,7 @@ Question Answering for Machine Reading Evaluation (QA4MRE) holds a sub-task on m
 
 Paper: Roser Morante, Martin Krallinger, Alfonso Valencia, and Walter Daelemans. 2012. Machine reading of biomedical texts about Alzheimers disease. In *CLEF 2012 Conference and Labs of the Evaluation Forum-Question Answering For Machine Reading Evaluation (QA4MRE), Rome/Forner, J.[edit.]; ea*. 1–14.
 
-## Bioinfomatics
+## Bioinformatics
 
 Bioinformatics contains biomedical queries with different complexity, and the database searching are restricted in Bgee and OMA. The natural language questions include multiple concepts which leads to longer and more complicated SPARQL queries.
 
