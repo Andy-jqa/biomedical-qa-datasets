@@ -1,14 +1,14 @@
 # Biomedical Question Answering Datasets
 
-This is a list of datasets for biomedical question answering tasks. As for the classifications of approach, content, and format, we follow the settings in [*Biomedical Question Answering: A Comprehensive Review*](https://arxiv.org/abs/2102.05281).
+Based on our survey of biomedical question answering tasks, we present this list of datasets which are available for future studies. As for the classifications of approaches, contents, and formats, we follow the settings in [our paper](https://arxiv.org/abs/2102.05281).
 
 ![overview](https://github.com/Andy-jqa/biomedical-qa-datasets/blob/main/overview.png)
 
 | Dataset               | Size                      | Metric                      | SOTA                                                     | Approach              | Content     | Format                      | Last Update           |
 | --------------------- | ------------------------- | --------------------------- | -------------------------------------------------------- | --------------------- | ----------- | --------------------------- | --------------------------- |
 | [BioASQ Task B Phase A](#bioasq-task-b) | 3.7k                      | MAP                         | 33.04 (document) / 68.21 (snippet)                       | IR | Scientific  | Retrieval                   | 2021.3             |
-| [BiQA](#biqa)         | 7.4k                      | MAP                         |                                                          | IR | Consumer    | Retrieval                   | 2021.3             |
-| [EPIC-QA](#epic-qa)   | 45                        | MAP                         |                                                          | IR | Sci. & Con. | Retrieval                   | 2021.3             |
+| [BiQA](#biqa)         | 7.4k                      | MAP                         | -- | IR | Consumer    | Retrieval                   | 2021.3             |
+| [EPIC-QA](#epic-qa)   | 45                        | MAP                         | -- | IR | Sci. & Con. | Retrieval                   | 2021.3             |
 | [HealthQA](#healthqa) | 7.5k                      | MAP                         | 87.88                                                    | IR | Consumer    | Retrieval                   | 2021.3             |
 | [TREC Genomics](#trecgenomics) | 28 (06), 36 (07)          | MAP                         | 54.39 (06) / 32.86 (07)                                  | IR | Scientific  | Retrieval                   | 2021.3             |
 | [BioASQ Task B Phase B](#bioasq-task-b) | 3.7k                      | F1, MRR, List F1, Manual | 90.3, 39.7, 52.3, 4.39/5                              | MRC                   | Scientific  | Y/N; Extraction; Generation | 2021.3 |
