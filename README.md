@@ -37,6 +37,7 @@ A summary of biomedical QA datasets surveyed in our paper [Biomedical Question A
 | [cMedQA](#cmedqa) | 54k | P@1 | [65.35 (dev) / 64.75 (test)](https://www.mdpi.com/212454) | Open-domain | Consumer | Multi-choice | 2021.3 |
 | [cMedQA v2](#cmedqa-v2) | 108k | P@1 | [72.1 (dev) / 72.1 (test)](https://ieeexplore.ieee.org/abstract/document/8548603/) | Open-domain | Consumer | Multi-choice | 2021.3 |
 | [HEAD-QA](#head-qa) | 6.8k | Acc | [44.4 (supervised) / 46.7 (unsupervised)](https://arxiv.org/abs/2008.02434) | Open-domain | Examination | Multi-choice | 2021.3 |
+| [MedMCQA](#Medmcqa) | 194k | Acc | [w/o: 0.40 (dev) / 0.41 (test); with context: 0.43 (dev) / 0.47 (test)](https://proceedings.mlr.press/v174/pal22a.html) | Open-domain | Examination | Multi-choice | 2022.5 |
 | [LiveQA-Med](#liveqa-med) | 738 | avgScore | [82.7](https://www.ncbi.nlm.nih.gov/pmc/articles/pmc5333286/) | Open-domain | Consumer | Generation | 2021.3 |
 | [MEDQA](#medqa) | 61k | Acc | [MC: 69.3 (dev) / 70.1 (test); TW: 42.2 (dev) / 42.0 (test); US: 36.1 (dev) / 36.7 (test)](https://doi.org/10.3390/app11146421) | Open-domain | Examination | Multi-choice | 2021.3 |
 | [NLPEC](#nlpec) | 2.1k | Acc | [71.1 (dev) / 61.8 (test)](https://doi.org/10.18653/v1/2020.emnlp-main.111) | Open-domain | Examination | Multi-choice | 2021.3 |
@@ -275,6 +276,15 @@ HEAD-QA is a multi-choice question answering testbed to encourage research on co
 Paper: David Vilares and Carlos Gómez-Rodríguez. 2019. HEAD-QA: A Healthcare Dataset for Complex Reasoning. In *Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics*. Association for Computational Linguistics, Florence, Italy, 960–966. https://doi.org/10.18653/v1/P19-1092
 
 Access: http://aghie.github.io/head-qa/
+
+## MedMCQA
+
+MedMCQA is a large-scale, Multiple-Choice Question Answering (MCQA) dataset designed to address real-world medical entrance exam questions.
+MedMCQA has more than 194k high-quality AIIMS & NEET PG entrance exam MCQs covering 2.4k healthcare topics and 21 medical subjects are collected with an average token length of 12.77 and high topical diversity.
+
+Paper: Ankit Pal, Logesh Kumar Umapathi and Malaikannan Sankarasubbu 2022. MedMCQA: A Large-scale Multi-Subject Multi-Choice Dataset for Medical domain Question Answering. In *Proceedings of the Conference on Health, Inference, and Learning*, PMLR 174:248-260, 2022.. https://proceedings.mlr.press/v174/pal22a.html
+
+Access : (Hugginface : https://huggingface.co/datasets/medmcqa, Github : https://github.com/medmcqa/medmcqa)
 
 ## LiveQA-Med
 
